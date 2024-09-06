@@ -6,8 +6,8 @@ import styles from "./page.module.css";
 const Home = () => {
   const categories = {
     
-    "Start Chat": "function-calling",
-    
+    "Talk with the Universe": "function-calling",
+    "Talk with your Thought Adjuster": "basic-chat",
   };
 
   return (
