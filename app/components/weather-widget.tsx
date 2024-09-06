@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./weather-widget.module.css";
 
+
 const WeatherWidget = ({
   location = "---",
   temperature = "---",
@@ -17,10 +18,19 @@ const WeatherWidget = ({
 
   if (isEmpty) {
     return (
+      
       <div className={`${styles.weatherWidget} ${styles.weatherEmptyState}`}>
         <div className={styles.weatherWidgetData}>
-          <p>Enter a city to see local weather</p>
-          <p>try: what's the weather like in Berkeley?</p>
+        
+        <div>        
+      <a href="https://prismcortex.net" target="_blank" rel="noopener noreferrer">
+        <img height={200} src="https://s3.amazonaws.com/prismcortex.net/logos/PCLogoSupportblk.png" alt="Prism Cortex Logo" />
+      </a>
+    </div>
+    <br></br><h2>This is a friendly informational bot that can answer questions about<br></br> The Urantia Book</h2><br></br>
+          <h3>Try Asking: What is a the true nature of God?</h3><br></br>
+          <h3>Or: What happens after we die?</h3><br></br>
+          <h3>Even: Give me a quote about love</h3>
         </div>
       </div>
     );

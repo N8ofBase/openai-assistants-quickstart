@@ -6,10 +6,11 @@
   align-items: center;
   height: 100vh;
   background-color: white;
-  background-image: url(https://s3.amazonaws.com/prismcortex.net/logos/LightBot.png);
+  background-image: url(https://s3.amazonaws.com/prismcortex.net/logos/UBEarthBlank.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1000px;
+  background-size: 600px;
+  
 }
 .title {
   font-size: 1.5em;
@@ -20,9 +21,11 @@
 
 .pchead {
   flex-direction: column;
+  margin: 40px;
 }
 
 .pchead img {
+  
   padding: 20px;
   height: 200px;
 
@@ -65,7 +68,9 @@
 
 .disclaim {
   max-width: 800px;
-  margin: 20px;
-  font-weight: 600;
+  margin: 40px;
+  font-size: x-small;
+  font-weight: 500;
   padding: 20px;
+  background-color: #e3e3eb;
 }

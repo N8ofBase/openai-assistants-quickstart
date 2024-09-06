@@ -1,5 +1,5 @@
 "use client";
-
+import GoBackButton from "@/app/components/mainMenu";
 import React, { useState } from "react";
 import styles from "../shared/page.module.css";
 import Chat from "../../components/chat";
@@ -37,7 +37,13 @@ const FunctionCalling = () => {
           />
         </div>
         <div className={styles.chatContainer}>
+        <div className={styles.backButton}>
+            
+            <GoBackButton />
+        </div>
           <div className={styles.chat}>
+
+          
             <Chat functionCallHandler={functionCallHandler} />
           </div>
         </div>
